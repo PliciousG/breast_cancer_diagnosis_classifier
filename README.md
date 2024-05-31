@@ -1,12 +1,13 @@
 # Classification Models for Breast Cancer Diagnosis
 
 ## Project Overview
-This project aims to build a predictive model that can accurately classify breast cancer diagnosis as either benign or malignant based on the provided features. Logistic regression is used as the primary modeling technique, and different methods of handling missing data are explored to improve the model's performance.
+This project aimed to build a predictive model that can accurately classify breast cancer diagnosis as either benign or malignant based on the provided features. Logistic regression was used as the primary modeling technique, and different methods of handling missing data were explored to improve the model's performance.
 
 ## Missing Data
 The dataset contained a total of 186 missing variables (~5% of the dataset). Six features were identified to contain 31 missing data points each, including ‘radius_mean’, ‘texture_mean’, ‘radius_se’, ‘texture_se’, ‘radius_worst’, and texture_worst’. 
 
 **Handling Missing Data**
+
 Missing data was handled with the aim of minimising its impact on the models while maintaining the dataset integrity and ensuring prediction validity. The following methods were used:
 
 - Complete Case Analysis (CCA)
